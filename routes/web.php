@@ -17,8 +17,4 @@ Route::get('/', function () {
 
 Route::get('login', 'PostsController@login');
 
-Route::post('login', 'PostsController@post');
-
 Route::get('register', 'PostsController@register');
-
-Route::post('register', 'PostsController@post');
